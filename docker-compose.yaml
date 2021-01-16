@@ -1,0 +1,8 @@
+version: '3'
+services:
+  demovue:
+    container_name: demovue
+    image: demovue
+    network_mode: bridge
+    ports:
+      - 8089:80

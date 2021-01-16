@@ -1,4 +1,4 @@
 #!/bin/bash
-docker build -t vue .
+docker build -t demovue .
 docker-compose down
 docker-compose up -d
